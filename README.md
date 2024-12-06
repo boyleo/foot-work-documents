@@ -1,5 +1,7 @@
 # Foot-Work Blender Add-on
 
+https://youtu.be/odMtLU8-Oeg
+
 ## Overview
 The Foot-Work Blender Add-on is a toolset designed to assist animators in creating smooth locomotion.  
 It currently consist of 2 sub-module
