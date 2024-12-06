@@ -22,4 +22,5 @@ offset root bone instead of IK bones.
 ![offset_root](/documents/images/offset_root.webp)
 #### ground snap
 snap armature to ground object.  
+Use raycasting to put feet on the ground.  
 ![ground snap](/documents/images/ground_snap.webp)
