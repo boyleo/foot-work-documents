@@ -53,7 +53,7 @@ Use raycasting to put feet on the ground.
  - **NLA** - The addon does not work with NLA. Locomotion cycle should be baked onto current action. 
 
 ## Installation
-The Foot-Work Addon is available to purchase here
+The Foot-Work Addon is available to purchase at [Gumroad](https://boyleo.gumroad.com/l/footwork)
 
 The installation process is straight forward.  
 Just open the Addon preference in Blender and install the ZIP file to preferred location
