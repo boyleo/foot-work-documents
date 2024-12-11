@@ -66,4 +66,4 @@ then you can find the tools in **Animation** tab
 
 ![Foot-Work_UI](/documents/images/footworkUI_001.png)
 
-## [Usage](documents/images/usage.md)
+## [Usage](documents/usage.md)
