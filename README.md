@@ -32,6 +32,9 @@ offset root bone instead of IK bones.
 snap armature to ground object.  
 Use raycasting to put feet on the ground.  
 ![ground snap](/documents/images/ground_snap.webp)
+#### constraint to curve
+move character along curve preserving stride distance
+![curve](documents/images/curve.webp)
 
 ## Prerequisite 
  - **Blender** - Foot-Work Addon was developed in Blender 4.2.3 LTS.  
@@ -46,14 +49,14 @@ Use raycasting to put feet on the ground.
    where -Y points forward and Z points upward, these are consistent from root to torso and feet.
    Some rig has different orientation between these bones. Foot-Work **cannot** work in this situation.
    I'm working find a solution.
- 
+  
  - **Animation** - Foot-Work Addon is **NOT** a walk cycle generator.  
    You should have your walk cycle animation ready before using this addon.
  
- - **NLA** - The addon does not work with NLA. Locomotion cycle should be baked onto current action. 
+ - **NLA** - The addon does not work with NLA. Locomotion cycle should be baked onto current action first. 
 
 ## Installation
-The Foot-Work Addon is available to purchase at [Gumroad](https://boyleo.gumroad.com/l/footwork)
+The Foot-Work Addon is available to purchase here
 
 The installation process is straight forward.  
 Just open the Addon preference in Blender and install the ZIP file to preferred location
@@ -61,5 +64,6 @@ Just open the Addon preference in Blender and install the ZIP file to preferred 
 When Enable, Press N in 3D-View to bring up properties panel,  
 then you can find the tools in **Animation** tab
 
-## Usage
-Please refer to videos in this youtube playlist
+![Foot-Work_UI](/documents/images/footworkUI_001.png)
+
+## [Usage](documents/images/usage.md)
