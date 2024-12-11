@@ -41,6 +41,11 @@ Use raycasting to put feet on the ground.
  - **Rig** - the addon only works with any armature that is animated with IK bones.  
    The armature should have Root Bone, Torso Bone, optional IK Feet and Toes.  
    A walk cycle with only FK Bones does not work. If you have animated with FK bones, try to convert it IK bones first.
+   
+ - **Bones Axis** - Currently the IK bones' axis should be consistent. Take Rigify for example,
+   where -Y points forward and Z points upward, these are consistent from root to torso and feet.
+   Some rig has different orientation between these bones. Foot-Work **cannot** work in this situation.
+   I'm working find a solution.
  
  - **Animation** - Foot-Work Addon is **NOT** a walk cycle generator.  
    You should have your walk cycle animation ready before using this addon.
