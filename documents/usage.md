@@ -47,7 +47,9 @@ For the Start Frame, it's usually the first frame of the second loop. If you spe
 
 * Root Motion, when enabled, will show a root bone selection box. This option will offset the root bone instead of other IK bones in the rig.
 
-The button Offset Bone or Offset Root will change its label according to the current mode of operation.
+The button Offset Bone or Offset Root will change its label according to the current mode of operation.  
+
+[Video](/images/offset.webm)
 
 ## Turn
 This tool is not actually turning your charactor, but rather, it will add a Pivot Empty at certain location and add constraints to IK bones so that you can rotate the rig with the Empty.
