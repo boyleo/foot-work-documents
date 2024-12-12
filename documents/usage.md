@@ -24,7 +24,7 @@ Stride tool will adjust the distance of a walk cycle
 When all option is satisfied, you can click Apply Stride to adjust distance.
 
 ## Offset
-This tool is for offsetting the rig at specific frame while maintaining anchor bone location.
+This tool is for offsetting the rig at specific frame while maintaining anchor bone location.  
 
 ![Offset UI](images/footworkUI_003.png)
 
@@ -83,7 +83,7 @@ The Ground Object is the ground you want to snap the character to. When this box
 
 When your locomotion cycle is on zero plane, you can just specify the ground object, frames and and each IK bones, then click Snap to Ground.
 
-When you want to change the ground object, change to Refference object to the current ground object, and put the new ground object in Ground Object box. or just leave it empty, to bring the character back to zero plane.
+When you want to change the ground object, change to Reference object to the current ground object, and put the new ground object in Ground Object box. or just leave it empty, to bring the character back to zero plane.
 
 There's one Advance option called Raycast Distance. This is the starting point of the raycast in  global Z axis to find ground object below this point. Must be higher than ground object height or the raycast will fail to find the ground.
 
@@ -117,3 +117,30 @@ The options are self explanatory. Once you click Constraint to Curve, it will ad
 If you want to revert the operation, **go back to the first frame** before removing the constraint from root bone. Open the Dope Sheet you will see that one location channel of the root bone has been deactivated, just activate it to get back the straight locomotion.
 
 If you are satisfied with the result, you can bake pose into current action to make it permanent.
+
+## Path Finding
+The path finding tool use A* path finding algorithm to find shortest path between 2 locations. You need to specify the root bone to be used as start location.  
+
+![path finding](images/pathfinding.png)
+
+* Go back to frame 1, or the begining of the locomotion before clicking Start. this button will add an empty at the location of the root bone.
+
+* Add other helper objects such as goal, obstacles, and boundary.
+
+* scale the boundary to barely cover the whole area you want your characte to move.
+
+* Move the goal to the final location
+
+* Duplicate and rearrange obstacles as you pleased. You can adjust size of obstacle empty, but do not scale it.
+
+* Grid resolution will subdivide the boundary sapce by this value, to get the grid to calculate obstacle avoidance. lower value will be faster to calculate but may miss some smaller obstacles.
+
+* Show debug grid will create a grid for debugging purpose.  this grid has no other use and can be deleted safely.
+
+* When you click Create Path, the Path Length will tell you how far your character should move in the forward axis for it to move to the end of the path. you should add or remove cycles or adjust stride distance to match this value, so that the character can travel the whole length of the path.
+
+The path finding tool does not constraint your character to the path, it merely create the shortest curve path.
+
+Obstacles will be in their own collection, when your done with creating path, you can safely delete the collection, the start and goal objects.
+
+
