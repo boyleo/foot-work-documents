@@ -49,7 +49,7 @@ For the Start Frame, it's usually the first frame of the second loop. If you spe
 
 The button Offset Bone or Offset Root will change its label according to the current mode of operation.  
 
-[Video](/images/offset.webm)
+[Video](https://github.com/boyleo/foot-work-documents/blob/main/documents/images/offset.webm)
 
 ## Turn
 This tool is not actually turning your charactor, but rather, it will add a Pivot Empty at certain location and add constraints to IK bones so that you can rotate the rig with the Empty.
