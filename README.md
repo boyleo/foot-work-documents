@@ -1,6 +1,6 @@
 # Foot-Work Blender Add-on
 
-https://youtu.be/odMtLU8-Oeg
+Foot-Work available now at [Gumroad](https://boyleo.gumroad.com/l/footwork)
 
 ## Descriptions
 Welcome to the **Foot-Work** Blender Addon documentation.  Foot-Work is a set of tools that can help Blender animators work with locomotion
