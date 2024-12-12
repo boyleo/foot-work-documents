@@ -127,13 +127,13 @@ The path finding tool use A* path finding algorithm to find shortest path betwee
 
 * Add other helper objects such as goal, obstacles, and boundary.
 
-* scale the boundary to barely cover the whole area you want your characte to move.
+* scale the boundary to barely cover the whole area you want your character to move.
 
 * Move the goal to the final location
 
 * Duplicate and rearrange obstacles as you pleased. You can adjust size of obstacle empty, but do not scale it.
 
-* Grid resolution will subdivide the boundary sapce by this value, to get the grid to calculate obstacle avoidance. lower value will be faster to calculate but may miss some smaller obstacles.
+* Grid resolution will subdivide the boundary space by this value, to get the grid to calculate obstacle avoidance. lower value will be faster to calculate but may miss some smaller obstacles.
 
 * Show debug grid will create a grid for debugging purpose.  this grid has no other use and can be deleted safely.
 
