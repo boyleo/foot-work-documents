@@ -102,6 +102,8 @@ This tool can convert modes back and forth without any issues.
 ## Curve
 This tool will let your character travel along curve without (or minimal) foot slide. It will calculate stride distance and map the character to the curve base on this distance. So your character can walk with different speed and it will move along the curve accordingly, even if there are forward and backward motions in the sequence.
 
+**Curve type should be 2D**, to avoid character 'twisting' around the curve.
+
 ![Curve UI](images/footworkUI_007.png)
 
 To use this tool, the locomotion animation must be In-Place mode, as this tool will only add constraint to root bone and adjust speed based on stride distance.
