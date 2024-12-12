@@ -5,13 +5,14 @@ Foot-Work available now at [Gumroad](https://boyleo.gumroad.com/l/footwork)
 ## Descriptions
 Welcome to the **Foot-Work** Blender Addon documentation.  Foot-Work is a set of tools that can help Blender animators work with locomotion
 
-The tools consist of 6 modules
+The tools consist of 7 modules
 
  - **Stride** - Adjust stride distance in a cycle
  - **Offset** - Move character to next location maintaining anchor foot position
  - **Turn** - Add pivot point at the feet to turn the character
  - **Ground** - Snap character to ground object
  - **Root Motion** - Convert between in-place cycle and root motion cycle
+ - **Path Finding** - Create curve path to target location avoiding obstacles in the process
  - **Curve** - Let your character travel along curve without foot slide
 
 While sharing some properties, each tool works independently.  
@@ -35,6 +36,9 @@ Use raycasting to put feet on the ground.
 #### constraint to curve
 move character along curve preserving stride distance
 ![curve](documents/images/curve.webp)
+
+### path finding
+[path finding (video on youtube)](https://youtu.be/0mRixdbk4ZA)
 
 ## Prerequisite 
  - **Blender** - Foot-Work Addon was developed in Blender 4.2.3 LTS.  
