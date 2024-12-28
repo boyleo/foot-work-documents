@@ -177,7 +177,7 @@ To use this tool, the locomotion animation should be In-Place mode.
 
 Please note that the curve's **first control point should be exactly at root bone location** to avoid unexpected result. If you use the path finding tool to create the curve, this issue should be correctly handled.
 
-The options are self explanatory. Once you click Constraint to Curve, it will add a constraint to root bone. 
+The options are self explanatory. Once you click Constraint to Curve, it will take a moment and your character will walk along the curve.
 
 >This operation is destructive, the other tools will not function correctly after you applying curve. So save first and **keep your backup** if you are unsure.
 
