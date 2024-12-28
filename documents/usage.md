@@ -36,7 +36,7 @@ Stride tool will adjust the distance of a walk cycle
 
     If you don't want to count frames, you can enter (first frame of the second loop - first frame of  the first loop). for example : 30-1
 
-* Calculate Current Stride Distance will fill in the **Stride Distance** box with current value, giving you percentage to adjust it.
+* Calculate Current Stride Distance will fill in the **Stride Distance** box with current value.
 
 When all option is satisfied, you can click Apply Stride to adjust distance.
 
